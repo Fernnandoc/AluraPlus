@@ -1,0 +1,295 @@
+:root {
+
+--branco-principal: #FFFFFF;
+--cinza-secundário: #C0C0C0;
+--botao-azul: #167BF7;
+--cor-de-fundo: #00030c;
+
+}
+
+body {
+
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    align-items: center;
+    width: 100%;
+
+}
+
+.conteiner {
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.conteiner_buttom {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.conteiner_botao {
+
+    background-color: var(--botao-azul);
+    padding: 1em;
+    color: var(--branco-principal);
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+
+}
+
+.botao_secundario {
+    
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin: 1em 0 1em 0 ;
+    text-align: center;
+    width: 100%;
+
+}
+
+.conteiner_aviso {
+
+    font-size: 15px;
+    color: var(--cinza-secundário);
+    width: 100%;
+    text-align: center;
+
+}
+
+.conteiner_imagem {
+
+    margin: 1em 0 2em 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.conteiner_caixa {
+
+    padding: 3em ;
+    
+}
+ 
+/* thow part of projetc */
+
+
+.conteiner_segundaparte {
+
+    padding: 0 0 0 4em;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.conteiner_descricão {
+
+    align-items: center;
+    width: 550px;
+    height: 58px;
+    padding: 0 0 0 5em;
+
+}
+
+.descrição_titulo {
+
+    font-size: 30px;
+
+}
+
+.descrição_titulo2 {
+
+    font-size: 15px;
+
+}
+
+/* tree part of project */
+
+.descricao {
+
+  margin: 1em 1em 1em 4em;
+
+}
+
+.descricao_texto {
+
+    padding: 0 0 2em 0;
+
+}
+
+.conteiner_terceiraparte {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.botao_terceiraparte {
+    
+    
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 16px 16px 16px 16px;
+    border-radius: 5px;
+
+}
+
+.imagem_terceira {
+
+    padding: 0 5em 0 0;
+
+}
+
+/* four part of project */
+
+.conteiner_quartaparte {
+
+    display: flex;
+    align-items: center;
+    padding: 5em 0 0 3em ;
+
+}
+
+.descricao_quartaparte {
+
+    padding: 0 3em 0 0;
+
+}
+
+.titulo_quartaparte {
+
+    font-size: 2rem;
+
+}
+
+descricao_quartaparte2 {
+
+    font-size: 1rem;
+
+}
+
+
+/* five part of project */
+
+.conteiner_quintaparte{
+
+    width: 100%;
+
+
+
+}
+
+
+.titulo_quintaparte{
+
+    width: 100%;
+    text-align: center;
+    padding: 54px 0 54px 0;
+    font-size: 2rem;
+
+}
+
+.conteiner_imagens {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.tv{
+
+    font-size: 20px;
+
+}
+
+.computador{
+
+    font-size: 20px;
+    
+}
+
+.celular{
+
+    font-size: 20px;
+    
+}
+
+/* footer of project */
+.rodape {
+
+    padding: 0 0 2em 0;
+
+
+}
+.imagem_rodape1 {
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5rem 0 5rem 0;
+
+
+}
+
+.rodapelista {
+
+    display: flex;
+    list-style: none;
+    padding-bottom: 3em;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+
+
+}
+
+.listarodape {
+
+    margin-right: 15px;
+
+}
+
+.texto1_rodape {
+
+    text-align: center;
+    padding: 1em 0 1em 0;
+
+
+}
+
+.texto2_rodape {
+
+
+    text-align: center;
+    padding: 0 3em 2em 5em;
+}
